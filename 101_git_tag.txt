@@ -1,3 +1,5 @@
+Like most VCSs, Git has the ability to tag specific points in a repository’s history as being important. Typically, people use this functionality to mark release points (v1.0, v2.0 and so on).
+
 Git supports two types of tags: lightweight and annotated.
 
 A lightweight tag is very much like a branch that doesn’t change - it’s just a pointer to a specific commit.
