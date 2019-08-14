@@ -1,12 +1,13 @@
-// Write a Java program to check whether java is installed on your computer.  Expected output version, runtime version, home, vendor, vendor URL, class path.
-public class Sprint2 {
-    public static void main(String[] args) {
-        System.out.println(System.getProperty("java.version"));
-        System.out.println(System.getProperty("java.runtime.version"));
-        System.out.println(System.getProperty("java.home"));
-        System.out.println(System.getProperty("java.vendor"));
-        System.out.println(System.getProperty("java.vendor.url"));
-        System.out.println(System.getProperty("java.class.path"));
+public class Sprint3 {
+    public static void main (String[] args) { // Write a Java program to take the last three characters from a given string and add the three characters at both the front and back of the string.
+        String Python = "Python";
+        String hon = Python.substring(3, 6);
+        System.out.println(hon);
+
+        StringBuilder sb = new StringBuilder();
+        sb.append(hon);
+        sb.append(Python);
+        sb.append(hon);
+        System.out.println(sb);
     }
-}
-// Finished in 3:07
+} // Finished in 05:50

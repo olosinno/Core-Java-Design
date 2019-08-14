@@ -8,5 +8,4 @@ public class Sprint1 {
         System.out.println(System.getProperty("java.vendor.url"));
         System.out.println(System.getProperty("java.class.path"));
     }
-}
-// Finished in 3:45
+} // Finished in 3:45, again at 3:07
